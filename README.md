@@ -9,11 +9,8 @@
 ## Usage
 
 ### Clone the codebase
-- Clone the repo: `git clone git@github.com:vuchkov/flask-sqlite-todo-example.git`
-- Enter folder: `cd flask-sqlite-todo-example`
-
-### Create the Database
-- Create the SQLite database: `python3 init_db.py`
+- Clone the repo: `git clone git@github.com:vuchkov/python-flask-simple-register-login.git`
+- Enter folder: `cd python-flask-simple-register-login`
 
 ### Run the Flask application
 - Virtual environment: create `.venv` folder, activate env., install Flask:
@@ -26,4 +23,3 @@ export FLASK_ENV=development
 flask run
 ```
 - Open in the browser the shown URL path (example: http://127.0.0.1:5000/)
-- Use `/`, `/create`, `/1/edit`, `/1/delete` 
